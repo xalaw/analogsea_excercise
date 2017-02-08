@@ -2,20 +2,21 @@
 <html>
 <head>
 	<title>Analogsea | SignUp</title>
-	<meta description="Analogsea SignUp Page.">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta description="Analogsea SignUp Page." />
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
 
 </head>
-<body>
-	<h1><img src="images/logo.png" alt="AnalogSea Logo" class="logo"></h1>
+<body>		
 	<main>
-		
+		<img src="images/logo.png" alt="AnalogSea Logo" class="logo">
 		<form class="signup-form" action='/signup/' method='post'>
 			<h2>Sign Up</h2>
-			<label for="email">Email</label><input type="email" name="email" id="email" placeholder="foo@bar.com" required />
-			<label for="password">Password</label><input type="password" name="password" id="password" placeholder="1234password" required />
-			<input type="submit" value="Sign up">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="foo@bar.com" required />
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="1234password" required />
+			<input type="submit" value="Sign up" />
 			<a href="/forgot-password/new" class="center">Forgot Password?</a>
 		</form>
 		<p class="one-liner center">Already have an account? <a href="/login">Log in</a></p>
